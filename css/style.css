@@ -12,6 +12,7 @@ body {
   border-bottom: solid white 3px;
   position: fixed; /*keeps the element from moving with scroll*/
   top: 0px;
+  z-index: 1; /*prevent the elements below from overlapping the heading*/
 }
 
 #heading_holder {
@@ -39,15 +40,17 @@ body {
 }
 
 #counter_bubble {
+  color: red;
   background-color: lightblue;
   position: relative;
-  left: 525px;
-  top: 200px;
-  font-size: 75px;
+  left: 640px;
+  top: 320px;
+  font-size: 70px;
   text-align: center;
+  height: 375px;
   width: 375px;
   border: solid white 5px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 #counter {
@@ -60,4 +63,42 @@ img {
   position: absolute;
   left: 400px;
   transform: rotate(15deg);
+}
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+#button1 {
+    margin: 20px;
+    font-size: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+#button2 {
+    margin-left: 400px;
+    font-size: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+#button3 {
+    margin-top: 395px;
+    font-size: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
+}
+#button4 {
+    margin-left: 400px;
+    font-size: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid lightblue;
 }
