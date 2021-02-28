@@ -99,7 +99,7 @@ body {
 #bubble1 {
   position: absolute;
   z-index: 3;
-  background-image: url(bubble.png);
+  /* background-image: url(bubble.png); */
     top: 250px;
 }
 #bubble2 {
