@@ -2,11 +2,11 @@ body {
   margin: 0px;
   width: 100%;
   height: 100%;
-  background-color: #253e92;
+  background-color: #003941;
 }
 
 #heading {
-  background-color: black; /*Color for all heading*/
+  background-color: #FFFFFF; /*Color for all heading*/
   height: 50px;
   width: 100%;
   border-bottom: solid white 3px;
