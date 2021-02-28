@@ -1,8 +1,8 @@
 //Feel free to rename
-var button1 = document.getElementById("button1");
-var button2 = document.getElementById("button2");
-var button3 = document.getElementById("button3");
-var button4 = document.getElementById("button4");
+var button1 = document.getElementById("1997");
+var button2 = document.getElementById("2008");
+var button3 = document.getElementById("2016");
+var button4 = document.getElementById("2020");
 
 // Create an event listener attached to buttons
 button1.addEventListener("click", function() {
