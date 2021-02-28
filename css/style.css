@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0px;
   width: 100%;
   height: 100%;
   background-color: #253e92;
@@ -35,69 +35,86 @@ body {
 #content {
   background-color: skyblue;
   text-align: center;
+  margin: 0px;
   margin-top: 53px; /*pushes element below #heading*/
   height: 100px;
+
+}
+
+#media {
+  text-align: center;
+  margin-left: 0px;
+  width: 100%;
+  height: 665px;
+  background: radial-gradient(#03506f, #0a043c);
+  z-index: 2;
 }
 
 #counter_bubble {
   color: red;
-  background-color: lightblue;
-  position: relative;
-  left: 640px;
+  /* background: radial-gradient(#d3e0ea, #276678); */
+  position: absolute;
+  left: 37%;
   top: 320px;
   font-size: 70px;
   text-align: center;
   height: 375px;
   width: 375px;
+  /*
   border: solid white 5px;
   border-radius: 50%;
+  */
 }
 
 #counter {
   opacity: 1;
 }
-
-
-img {
-  width: 10%;
-  position: absolute;
-  left: 400px;
-  transform: rotate(15deg);
-}
-
 .buttons {
-    margin: 20px;
     text-align: center;
 }
 
-#button1 {
-    font-size: 50px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid lightblue;
+.bubble_button {
+  position: relative;
+  height: 215px;
+  width: 200px;
 }
-#button2 {
-    margin-left: 400px;
-    font-size: 50px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid lightblue;
+
+.bubble_button img {
+  width: 100%;
+  height: 100%;
 }
-#button3 {
-    margin-top: 395px;
-    font-size: 50px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid lightblue;
+
+.bubble_button button {
+  color: white;
+  font-size: 250%;
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  left: 12.5%;
+  background-color: transparent;
+  border-radius: 100%;
 }
-#button4 {
-    margin-left: 400px;
-    font-size: 50px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 5px solid lightblue;
+
+#bubble1 {
+  position: absolute;
+  z-index: 3;
+  background-image: url(bubble.png);
+    top: 250px;
+}
+#bubble2 {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+}
+#bubble3 {
+  position: absolute;
+  bottom: 75px;
+  left: 50px;
+}
+
+#bubble4 {
+  position: absolute;
+  bottom: 20px;
+  right: 75px;
 }
