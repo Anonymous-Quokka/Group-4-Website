@@ -6,14 +6,14 @@ var button4 = document.getElementById("button4");
 
 // Create an event listener attached to buttons
 button1.addEventListener("click", function() {
-  document.getElementById("counter_bubble").innerHTML = "<h1>500</h1>";
+  document.getElementById("counter_bubble").innerHTML = "<h1>567</h1>";
 })
 button2.addEventListener("click", function() {
-  document.getElementById("counter_bubble").innerHTML = "<h1>300</h1>";
+  document.getElementById("counter_bubble").innerHTML = "<h1>245</h1>";
 })
 button3.addEventListener("click", function() {
-  document.getElementById("counter_bubble").innerHTML = "<h1>100</h1>";
+  document.getElementById("counter_bubble").innerHTML = "<h1>30</h1>";
 })
 button4.addEventListener("click", function() {
-  document.getElementById("counter_bubble").innerHTML = "<h1>20</h1>";
+  document.getElementById("counter_bubble").innerHTML = "<h1>~10</h1>";
 })
