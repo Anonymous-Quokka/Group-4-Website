@@ -6,7 +6,7 @@ body {
 }
 
 #heading {
-  background-color: #FFFFFF; /*Color for all heading*/
+  background-color: black; /*Color for all heading*/
   height: 50px;
   width: 100%;
   border-bottom: solid white 3px;
@@ -117,4 +117,76 @@ body {
   position: absolute;
   bottom: 20px;
   right: 75px;
+}
+
+#purple1 {
+  width: 200px;
+  position: absolute;
+  top: 150px;
+  left: 75px;
+}
+
+#blue1 {
+  position: absolute;
+  width: 250px;
+  top: 450px;
+  left: -20px;
+  transform: rotate(-35deg);
+  transform: scaleX(-1);
+}
+
+#green1 {
+  position: absolute;
+  width: 250px;
+  top: 450px;
+  right: 200px;
+  transform: rotate(100deg);
+}
+
+#purple2 {
+  width: 300px;
+  position: absolute;
+  bottom: 25px;
+  left: 275px;
+  transform: scaleX(-1) rotate(-45deg);
+}
+
+#blue2 {
+  position: absolute;
+  width: 100px;
+  bottom: 200px;
+  right: 50px;
+  transform: rotate(-45deg);
+}
+
+#green2 {
+  position: absolute;
+  width: 150px;
+  top: 200px;
+  left: 300px;
+  transform: rotate(-100deg);
+}
+
+#purple3 {
+  width: 150px;
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  transform: scaleX(-1) rotate(30deg);
+}
+
+#blue3 {
+  position: absolute;
+  width: 300px;
+  bottom: 400px;
+  right: 600px;
+  transform: rotate(-45deg) rotate(20deg);
+}
+
+#green3 {
+  position: absolute;
+  width: 350px;
+  bottom: -50px;
+  right: 400px;
+  transform:rotate(-30deg);
 }
