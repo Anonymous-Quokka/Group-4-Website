@@ -16,6 +16,14 @@ function createNewAnimal(IMAGES, iter) {
   let angle = deg(getRandomInt(0, 360));
   let dist = getRandomInt(15, 35);
 
+ function createOrangutan(IMAGES, num) {
+  od.update( num );
+  holder.empty();
+  for (let i = 0; i <= num/3000; ++i) {
+    createNewAnimal(IMAGES, i);
+  }
+}
+  
   let Xs = getRandomInt(10, 15);
   let Ys = Xs* 1.1;
 
