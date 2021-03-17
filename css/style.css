@@ -34,64 +34,79 @@ body {
   font-size: 100%;
 }
 
-/* #content {
-  background-color: #66888D;
+#instructions {
+  background: white;
   text-align: center;
+  width: 60%;
+  left: 20%;
+  top: 15%;
+  position: absolute;
+}
+
+#content {
+  background-color: #66888D;
   margin: 0px;
   margin-top: 53px;
-  height: 100px;
+  width: 100%;
+  height: 100vh;
+  bottom: 0px;
   color: #FFFFFF;
   font-size: 17px;
-} */
-
-.buttons {
-    text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-.bubble_button {
-  position: relative;
-  height: 215px;
-  width: 200px;
+.column {
+  table-layout: fixed;
+  width: 25%;
 }
 
-.bubble_button img {
-  width: 100%;
-  height: 100%;
+#saolaContent {
+  background: radial-gradient(circle at 50%, #d3e0ea, #6c606a, #524850);
+  text-align: center;
 }
 
-.bubble_button button {
-  color: white;
-  font-size: 150%;
-  position: absolute;
-  height: 75%;
+#saolaButton {
+  width: 90%;
+  margin-top: 37vh;
+}
+
+#vaquitaContent {
+  background: radial-gradient(circle at 50%, #d3e0ea, #32839a, #276678);
+  text-align: center;
+}
+
+#vaquitaButton {
+  width: 90%;
+  height: 35%;
+  margin-top: 37vh;
+}
+
+#orangutanContent {
+  background: radial-gradient(circle at 50%, #d3e0ea, #6f7b51, #4C5437);
+  text-align: center;
+}
+
+#orangutanButton {
+  width: 70%;
+  margin-top: 35vh;
+}
+
+#tigerContent {
+  background: radial-gradient(circle at 50%, #d3e0ea, #9c3040, #6F222E);
+  text-align: center;
+}
+
+#tigerButton {
+  width: 90%;
+  height: 37.5%;
+  margin-top: 35vh;
+}
+
+button {
+  margin-top: 80%;
   width: 75%;
-  top: 12.5%;
-  left: 12.5%;
-  background-color: transparent;
-  border-radius: 100%;
-}
-
-#bubble1 {
-  position: absolute;
-  z-index: 3;
-  /* background-image: url(bubble.png); */
-    top: 200px;
-    left: 250px;
-}
-#bubble2 {
-  position: absolute;
-  top: 200px;
-  right: 250px;
-
-}
-#bubble3 {
-  position: absolute;
-  bottom: 100px;
-  left: 250px;
-}
-
-#bubble4 {
-  position: absolute;
-  bottom: 100px;
-  right: 250px;
+  height: 15%;
+  font-size: 150%;
+  margin-left: 12.5%;
 }
