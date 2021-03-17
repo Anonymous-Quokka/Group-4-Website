@@ -83,7 +83,7 @@ span:hover + #hiddenDown {
 }
 
 #content {
-  background-color: #66888D;
+  background-color: #876089;;
   text-align: center;
   margin: 0px;
   margin-top: 5vh; /*pushes element below #heading*/
@@ -99,12 +99,12 @@ span:hover + #hiddenDown {
   margin-left: 0px;
   width: 100%;
   height: 83vh;
-  background: radial-gradient(#66888D, #003941, #001D21);
+  background: radial-gradient(#A599A6, #6F606F, #4F4050);
   z-index: 2;
 }
 
 #counter_bubble {
-  color: #C8004F;
+  color: #876089;
   position: absolute;
   left: 31.3%;
   top: 40%;
