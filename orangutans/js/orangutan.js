@@ -25,4 +25,4 @@ $("#button4").click(function() {
   createOrangutan(srcs, nums[3] );
 });
 
-createOrangutan( srcs, nums[0] );
+createAnimals( srcs, nums[0] );
