@@ -10,19 +10,19 @@ for (var item in DATA) {
 
 
 $("#button1").click(function() {
-  createAnimals(srcs, nums[0] );
+  createOrangutan(srcs, nums[0] );
 });
 
 $("#button2").click(function() {
-  createAnimals(srcs, nums[1] );
+  createOrangutan(srcs, nums[1] );
 });
 
 $("#button3").click(function() {
-  createAnimals(srcs, nums[2] );
+  createOrangutan(srcs, nums[2] );
 });
 
 $("#button4").click(function() {
-  createAnimals(srcs, nums[3] );
+  createOrangutan(srcs, nums[3] );
 });
 
-createAnimals( srcs, nums[0] );
+createOrangutan( srcs, nums[0] );
