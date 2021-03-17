@@ -36,6 +36,52 @@ body {
   font-size: 100%;
 }
 
+#dropdown {
+  background-color: gray;
+  object-position: center;
+  top: 50%;
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+}
+
+#hiddenDown {
+  color: black;
+  padding: 1%;
+  display: none;
+  position: absolute;
+}
+
+#dropdown span {
+  height: 100%;
+}
+
+#dropdown span:hover {
+  background-color: red;
+}
+
+span:hover + #hiddenDown {
+  background-color: white;
+  display: block;
+  position: absolute;
+}
+
+#hiddenDown:hover {
+  background-color: white;
+  display: block;
+  position: absolute;
+}
+
+#subContent1 {
+  margin-left: 1%;
+  width: 45%;
+}
+#subContent2 {
+  margin-right: 1%;
+  width: 45%;
+}
+
 #content {
   background-color: #66888D;
   text-align: center;
