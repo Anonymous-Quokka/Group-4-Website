@@ -22,7 +22,7 @@ function createNewAnimal(IMAGES, iter) {
   let X = (dist * Math.cos(angle) - Xs/2) * 1.2;
   let Y = (dist * Math.sin(angle) - Ys/2) * 1;
 
-  let object = $("<img src = '" + IMAGES[iter % 3] + "'>");
+  let object = $("<img src = '" + IMAGES[iter % IMAGES.length] + "'>");
   object.css("position", "absolute");
   object.css("width", Xs  + "%");
   object.css("height", Ys  + "%");
@@ -36,7 +36,7 @@ function createNewAnimal(IMAGES, iter) {
 function createAnimals(IMAGES, num) {
   od.update( num );
   holder.empty();
-  for (let i = 0; i <= num/10; ++i) {
+  for (let i = 0; i <= Math.min(num/10, 300); ++i) {
     createNewAnimal(IMAGES, i);
   }
 }

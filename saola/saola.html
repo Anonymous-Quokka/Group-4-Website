@@ -2,29 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>The Saola Counter</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>The Vaquita Counter</title>
+    <link rel="stylesheet" type="text/css" href="css/saola.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src = "js/scripts.js" defer></script>
+
+    <script src="../js/odometer.min.js"></script>
+    <script src="../js/foundation.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/odometer-theme-default.css">
+
+    <script src = "js/saola.js" defer></script>
   </head>
   <body>
     <div id="heading">
       <div id="heading_holder">
-        <p>Saola</p>
+        <p>Vaquita</p>
         <p>Anonymous-Quokka</p>
       </div>
     </div>
     <div id="content">
       <div id="subContent1">
         <p>
+          How many Vaquitas are left in the world? If you click each the listed years, that are floating in bubbles below,
+          you will see the cooresponding estimated population count of the Vaquita for that year. You can see for yourself
+          how durastic and swift the decline of the Vaquita species has been.
         </p>
       </div>
         <div id="subContent2">
           <p>
+            The Vaquita is the smallest porpoise and their name means "little cow." They inhabit the Gulf of California
+            where they frequently fall victim to illegal fishing operations. On the brink of total extinction, they
+            are the most endangered marine animal in the world.
+            <br>
+            (*Note: Colors not actual. Vaquitas are usually various shades of grey.)
           </p>
         </div>
       </div>
-    <div id="vaquitas">
+    <div id="HOLDER">
       <img src="img/vaquita-purple.png" id="purple1">
       <img src="img/vaquita-blue.png" id="blue1">
       <img src="img/vaquita-green.png" id="green1">
@@ -68,8 +81,8 @@
 
     </div>
     <div id="media">
-      <div id="counter_bubble">
-        <h1>?</h1>
+      <div>
+        <h1 id="counter_bubble">?</h1>
       </div>
     </div>
   </body>

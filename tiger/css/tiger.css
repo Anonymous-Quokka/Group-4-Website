@@ -1,3 +1,5 @@
+/*THIS IS FOR THE INDIVIDUAL PAGES"*/
+
 body {
   margin: 0px;
   width: 100%;
@@ -38,51 +40,32 @@ body {
   background-color: #66888D;
   text-align: center;
   margin: 0px;
-  margin-top: 53px; /*pushes element below #heading*/
-  height: 100px;
+  margin-top: 5vh; /*pushes element below #heading*/
+  height: 12vh;
   color: #FFFFFF;
   font-size: 17px;
-}
-
-#subContent1 {
-  text-align: center;
-  width:600px;
-  position:relative;
-  left:20px;
-}
-
-#subContent2 {
-  text-align: center;
-  width:600px;
-  position:relative;
-  left:700px;
-  bottom:112px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #media {
   text-align: center;
   margin-left: 0px;
   width: 100%;
-  height: 665px;
+  height: 83vh;
   background: radial-gradient(#66888D, #003941, #001D21);
   z-index: 2;
 }
 
 #counter_bubble {
   color: #C8004F;
-  /* background: radial-gradient(#d3e0ea, #276678); */
   position: absolute;
-  left: 37%;
-  top: 120px;
+  left: 31.3%;
+  top: 40%;
   font-size: 130px;
   text-align: center;
-  height: 375px;
-  width: 375px;
-
-  /*
-  border: solid white 5px;
-  border-radius: 50%;
-  */
+  height: 37.5vh;
+  width: 37.5vw;
 }
 
 #counter {
@@ -113,103 +96,30 @@ body {
   left: 12.5%;
   background-color: transparent;
   border-radius: 100%;
+  border: none;
 }
 
 #bubble1 {
   position: absolute;
   z-index: 3;
   /* background-image: url(bubble.png); */
-    top: 200px;
-    left: 20px;
+    top: 20vh;
+    left: 2vw;
 }
 #bubble2 {
   position: absolute;
-  top: 150px;
-  right: 10px;
+  top: 16vh;
+  right: 1vw;
 
 }
 #bubble3 {
   position: absolute;
-  bottom: 5px;
-  left: 50px;
+  bottom: .5vh;
+  left: 5vw;
 }
 
 #bubble4 {
   position: absolute;
-  bottom: 20px;
-  right: 70px;
-}
-
-#purple1 {
-  width: 250px;
-  position: absolute;
-  top: 170px;
-  left: 225px;
-  transform: rotate(10 deg);
-  transform: scaleX(1);
-}
-
-#blue1 {
-  position: absolute;
-  width: 250px;
-  top: 420px;
-  left: -20px;
-  transform: rotate(-35deg);
-  transform: scaleX(-1);
-}
-
-#green1 {
-  position: absolute;
-  width: 250px;
-  top: 450px;
-  right: 200px;
-  transform: rotate(270deg);
-}
-
-#purple2 {
-  width: 350px;
-  position: absolute;
-  bottom: -40px;
-  left: 585px;
-  transform: scaleX(-1) rotate(-5deg);
-}
-
-#blue2 {
-  position: absolute;
-  width: 230px;
-  bottom: 280px;
-  right: 20px;
-  transform: rotate(160deg);
-}
-
-#green2 {
-  position: absolute;
-  width: 200px;
-  top: 200px;
-  left: 500px;
-  transform: scaleX(-1) rotate(300deg);
-}
-
-#purple3 {
-  width: 200px;
-  position: absolute;
-  top: 200px;
-  right: 200px;
-  transform: scaleX(-1) rotate(30deg);
-}
-
-#blue3 {
-  position: absolute;
-  width: 300px;
-  bottom: 340px;
-  right: 350px;
-  transform: rotate(-25deg) rotate(20deg);
-}
-
-#green3 {
-  position: absolute;
-  width: 350px;
-  bottom: 70px;
-  right: 750px;
-  transform:rotate(200deg);
+  bottom: 2vh;
+  right: 7vw;
 }
